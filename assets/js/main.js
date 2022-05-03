@@ -231,13 +231,12 @@
       });
 
       let portfolioFilters = select("#portfolio-flters li", true);
-      
-      let portfolioImg = select(".filter-web", true);
-      setTimeout(function () {
-        portfolioImg.forEach(function (el) {
-          el.remove(".filter-web");
-        });
-      }, 2000);
+      // let portfolioImg = select(".filter-web", true);
+      // setTimeout(function () {
+      //   portfolioImg.forEach(function (el) {
+      //     el.remove(".filter-web");
+      //   });
+      // }, 2000);
 
       /**
        * CLICK
